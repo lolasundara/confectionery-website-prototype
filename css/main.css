@@ -85,10 +85,11 @@ figure {
 
 figcaption {
   position: absolute;
+  font-size: 1.125rem;
   color: #44312b;
-  bottom: 1em;
-  left: 7.5em;
+  bottom: 12em;
+  left: 6.5em;
   border-radius: 3px;
-  background-color: #c1b3b2;
-  padding: .25em;
+  background-color: #f5f6f8;
+  padding: .5em;
 }
