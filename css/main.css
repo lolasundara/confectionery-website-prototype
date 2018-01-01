@@ -58,6 +58,10 @@ a:hover {
   color: #f5f6f8;
 }
 
+.current {
+  color: #f5f6f8;
+}
+
 img {
   display: block;
   width: 100%;
