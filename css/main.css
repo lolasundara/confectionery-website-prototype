@@ -25,6 +25,7 @@ body {
 }
 
 h1 {
+  font-family: 'Limelight', cursive;
   text-align: center;
   margin: 0;
   padding-top: .5em;
@@ -44,7 +45,7 @@ li {
   display: inline-block;
   list-style-type: none;
   padding: 1em;
-  width: 32.5%;
+  width: 32%;
   font-size: 1.125rem;
 }
 
@@ -60,7 +61,7 @@ a:hover {
 img {
   display: block;
   width: 100%;
-  margin-bottom: .75em;
+  margin-bottom: 1em;
 }
 
 h2 {
@@ -72,6 +73,7 @@ h2 {
 
 p:first-of-type {
   color: #7f4415;
-  margin: 1em .75em;
+  margin: .5em .75em;
   font-weight: lighter;
+  margin-bottom: 1em;
 }
