@@ -28,8 +28,8 @@ h1 {
   font-family: Limelight, cursive;
   text-align: center;
   margin: 0;
-  padding-top: .5em;
-  padding-bottom: .5em;
+  padding-top: .25em;
+  padding-bottom: .25em;
   font-size: 3rem;
   color: #44312b;
 }
@@ -44,7 +44,7 @@ ul {
 li {
   display: inline-block;
   list-style-type: none;
-  padding: 1em;
+  padding: .75em;
   width: 32%;
   font-size: 1.125rem;
 }
