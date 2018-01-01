@@ -77,3 +77,18 @@ p:first-of-type {
   font-weight: lighter;
   margin-bottom: 1em;
 }
+
+figure {
+  margin: 0;
+  position: relative;
+}
+
+figcaption {
+  position: absolute;
+  color: #44312b;
+  bottom: 1em;
+  left: 7.5em;
+  border-radius: 3px;
+  background-color: #c1b3b2;
+  padding: .25em;
+}
