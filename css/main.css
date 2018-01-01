@@ -71,7 +71,7 @@ h2 {
   margin-left: .5em;
 }
 
-p:first-of-type {
+p {
   color: #44312b;
   margin: .5em .75em;
   font-weight: lighter;
@@ -87,8 +87,8 @@ figcaption {
   position: absolute;
   font-size: 1.125rem;
   color: #44312b;
-  bottom: 12em;
-  left: 6.5em;
+  bottom: 10.5em;
+  left: 5.5em;
   border-radius: 3px;
   background-color: #f5f6f8;
   padding: .5em;
