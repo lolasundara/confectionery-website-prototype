@@ -12,6 +12,8 @@ html {
   text-size-adjust: 100%;
   box-sizing: border-box;
   margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #F5F6F8;
 }
 
 *, *::before, *::after {
@@ -22,16 +24,12 @@ body {
   margin: 0;
 }
 
-header {
-  background-color: #C9C2B7;
-}
-
 h1 {
-  font-family: 'Anton', sans-serif;
   text-align: center;
   margin: 0;
-  padding-top: .75em;
-  font-size: 2.5rem;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  font-size: 3rem;
   color: #673109;
 }
 
@@ -39,12 +37,15 @@ ul {
   text-align: center;
   padding-left: 0;
   margin: 0;
+  background-color: #B27F5A;
 }
 
 li {
   display: inline-block;
   list-style-type: none;
-  padding: 1em 1.75em 1em 1.75em;
+  padding: 1em;
+  width: 32.5%;
+  font-size: 1.125rem;
 }
 
 a {
@@ -52,10 +53,13 @@ a {
   color: #673109;
 }
 
+a:hover {
+  color: #F5F6F8;
+}
+
 img {
   width: 100%;
-  margin-top: .5em;
-  margin-bottom: .5em;
+  margin-bottom: .75em;
 }
 
 h2 {
@@ -65,7 +69,8 @@ h2 {
   margin-left: .5em;
 }
 
-p {
+p:first-of-type {
   color: #7F4415;
   margin: 1em .75em 1em .75em;
+  padding: .5em;
 }
