@@ -73,5 +73,5 @@ h2 {
 p:first-of-type {
   color: #7f4415;
   margin: 1em .75em;
-  padding: .5em;
+  font-weight: lighter;
 }
