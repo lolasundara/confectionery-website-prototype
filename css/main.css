@@ -65,7 +65,7 @@ a:hover {
 img {
   display: block;
   width: 100%;
-  margin-bottom: 1em;
+  margin-bottom: .75em;
 }
 
 .first {
@@ -73,15 +73,23 @@ img {
   width: 32.5%;
 }
 
+.color {
+  background-color: #663d50;
+  padding-top: .5em;
+  padding-bottom: .25em;
+  margin-bottom: .65em;
+  opacity: .75;
+}
+
 h2 {
-  color: #44312b;
+  color: #f5f6f8;
   margin-top: 0;
   margin-bottom: 0;
   margin-left: .5em;
 }
 
 p {
-  color: #44312b;
+  color: #f5f6f8;
   margin: .5em .75em;
   font-weight: lighter;
   margin-bottom: 1em;
@@ -96,8 +104,8 @@ figcaption {
   position: absolute;
   font-size: 1.125rem;
   color: #44312b;
-  bottom: 10.5em;
-  left: 5.5em;
+  bottom: 12.5em;
+  left: 6.75em;
   border-radius: 3px;
   background-color: #f5f6f8;
   padding: .5em;
@@ -105,11 +113,9 @@ figcaption {
 
 footer p {
   font-size: .75rem;
+  margin-top: 1em;
   text-align: center;
-}
-
-.icons {
-  width: 40px;
+  color: #44312b;
 }
 
 .last {
@@ -127,4 +133,8 @@ footer p {
 .visit {
   text-align: center;
   font-size: 1rem;
+}
+
+.visit:last-of-type {
+  padding-bottom: 1.5em;
 }
