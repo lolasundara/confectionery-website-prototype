@@ -150,12 +150,9 @@ footer p {
     bottom: 16em;
   }
 
-  img {
-    width: 200px;
-  }
-
   .story {
     display: inline-block;
+    width: 200px;
   }
 
   .clap {
@@ -166,6 +163,7 @@ footer p {
     display: inline-block;
     float: right;
     bottom: -15em;
+    width: 200px;
   }
 }
 
@@ -176,20 +174,45 @@ footer p {
     line-height: 1.4;
   }
 
-  p {
-    margin-top: 0;
-    margin-bottom: 0;
+  .story {
+    width: 50%;
   }
 
-  p:first-of-type {
-    margin-top: .75em;
+  .powder {
+    width: 50%;
   }
 
-  p:last-of-type {
-    margin-bottom: .75em;
+  .clap {
+    display: block;
   }
-}
+
+  figcaption {
+    left: 12em;
+    bottom: 21em;
+    font-size: 1.25rem;
+  }
 
 @media only screen and (min-width: 60em) {
 
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  figcaption {
+    font-size: 1.75rem;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
+  figcaption {
+    font-size: 2rem;
+    left: 15em;
+    bottom: 24em;
+  }
 }
