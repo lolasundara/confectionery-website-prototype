@@ -200,7 +200,9 @@ footer p {
   }
 
   figcaption {
-    font-size: 1.75rem;
+    font-size: 2rem;
+    left: 11em;
+    bottom: 19em;
   }
 }
 
@@ -211,7 +213,6 @@ footer p {
   }
 
   figcaption {
-    font-size: 2rem;
     left: 15em;
     bottom: 24em;
   }
