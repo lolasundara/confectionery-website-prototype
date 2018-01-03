@@ -107,3 +107,24 @@ footer p {
   font-size: .75rem;
   text-align: center;
 }
+
+.icons {
+  width: 40px;
+}
+
+.last {
+  text-align: center;
+  padding-top: .75em;
+  font-family: Limelight, cursive;
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+.bottom {
+  background-color: #c1b3b2;
+}
+
+.visit {
+  text-align: center;
+  font-size: 1rem;
+}
