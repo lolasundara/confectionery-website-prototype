@@ -102,3 +102,8 @@ figcaption {
   background-color: #f5f6f8;
   padding: .5em;
 }
+
+footer p {
+  font-size: .75rem;
+  text-align: center;
+}
