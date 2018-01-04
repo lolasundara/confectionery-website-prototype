@@ -28,7 +28,7 @@ h1 {
   font-family: Limelight, cursive;
   text-align: center;
   margin: 0;
-  padding-top: .25em;
+  padding-top: .5em;
   padding-bottom: .25em;
   font-size: 3rem;
   color: #44312b;
@@ -79,7 +79,7 @@ img {
 
 .color {
   background-color: #663d50;
-  padding-top: .5em;
+  padding-top: 1em;
   padding-bottom: .25em;
   margin-bottom: .65em;
   opacity: .75;
@@ -89,12 +89,12 @@ h2 {
   color: #f5f6f8;
   margin-top: 0;
   margin-bottom: 0;
-  margin-left: .5em;
+  margin-left: .75em;
 }
 
 p {
   color: #f5f6f8;
-  margin: .5em .75em;
+  margin: .5em 1.25em;
   font-weight: lighter;
   margin-bottom: 1em;
 }
@@ -204,6 +204,34 @@ footer p {
     left: 11em;
     bottom: 19em;
   }
+
+  .grapes {
+    display: inline-block;
+    width: 50%;
+    float: left;
+  }
+
+  .purple {
+    display: inline-block;
+    width: 50%;
+    padding-top: 8.35em;
+    padding-bottom: 8.35em;
+    opacity: .75;
+  }
+
+  .color {
+    opacity: .5;
+  }
+
+  h2 {
+    margin-bottom: 1em;
+    margin-left: 2em;
+  }
+
+  p {
+    margin-left: 3em;
+    margin-right: 3em;
+  }
 }
 
 @media only screen and (min-width: 90em) {
@@ -215,5 +243,14 @@ footer p {
   figcaption {
     left: 15em;
     bottom: 24em;
+  }
+
+  .color {
+    margin-bottom: 1em;
+  }
+
+  .purple {
+    padding-top: 15.75em;
+    padding-bottom: 15.75em;
   }
 }
