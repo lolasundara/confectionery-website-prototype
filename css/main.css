@@ -118,11 +118,11 @@ figcaption {
   position: absolute;
   font-size: 1.125rem;
   color: #44312b;
-  bottom: 12.5em;
-  left: 6.75em;
-  border-radius: 3px;
+  bottom: 12em;
+  left: 1.25em;
   background-color: #f5f6f8;
-  padding: .5em;
+  padding: 1em 6em;
+  opacity: .75;
 }
 
 footer p {
@@ -156,7 +156,7 @@ footer p {
 @media only screen and (min-width: 25em) {
 
   figcaption {
-    left: 9em;
+    left: 3.5em;
     bottom: 16em;
   }
 
@@ -197,8 +197,8 @@ footer p {
   }
 
   figcaption {
-    left: 12em;
-    bottom: 21em;
+    left: 6em;
+    bottom: 20em;
     font-size: 1.25rem;
   }
 }
@@ -211,9 +211,9 @@ footer p {
   }
 
   figcaption {
-    font-size: 2rem;
-    left: 11em;
-    bottom: 19em;
+    font-size: 1.5rem;
+    left: 9em;
+    bottom: 23em;
   }
 
   .grapes {
@@ -252,8 +252,9 @@ footer p {
   }
 
   figcaption {
-    left: 15em;
-    bottom: 24em;
+    font-size: 2rem;
+    left: 10em;
+    bottom: 25em;
   }
 
   .color {
