@@ -50,7 +50,7 @@ ul {
 li {
   display: inline-block;
   list-style-type: none;
-  padding-top: 1em;
+  padding-top: .75em;
   padding-bottom: .75em;
   font-size: 1.125rem;
   width: 32%;
@@ -65,7 +65,7 @@ a {
 a:hover {
   color: #f5f6f8;
   background-color: #663d50;
-  padding: 1em;
+  padding: .75em;
 }
 
 .current {
