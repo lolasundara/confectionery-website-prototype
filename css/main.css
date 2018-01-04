@@ -161,6 +161,11 @@ footer p {
     bottom: 16em;
   }
 
+  a:hover {
+    padding-left: 1.75em;
+    padding-right: 1.75em;
+  }
+
   .story {
     display: inline-block;
     width: 190px;
@@ -183,6 +188,11 @@ footer p {
   html {
     font-size: 110%;
     line-height: 1.4;
+  }
+
+  a:hover {
+    padding-left: 3.125em;
+    padding-right: 3.125em;
   }
 
   .story {
@@ -212,11 +222,19 @@ footer p {
     line-height: 1.5;
   }
 
+  .products {
+    width: 33.325%;
+    display: inline-block;
+    float: left;
+  }
+
   figcaption {
-    font-size: 1.75rem;
-    padding: 1em 7em;
-    left: 5.75em;
-    bottom: 21.5em;
+    font-size: 1rem;
+  }
+
+  a:hover {
+    padding-left: 5.25em;
+    padding-right: 5.25em;
   }
 
   .grapes {
@@ -252,6 +270,11 @@ footer p {
 
   html {
     font-size: 130%;
+  }
+
+  a:hover {
+    padding-left: 7.5em;
+    padding-right: 8.5em;
   }
 
   figcaption {
