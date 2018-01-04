@@ -156,7 +156,8 @@ footer p {
 @media only screen and (min-width: 25em) {
 
   figcaption {
-    left: 3.5em;
+    padding: 1em 5em;
+    left: 4.25em;
     bottom: 16em;
   }
 
@@ -197,6 +198,7 @@ footer p {
   }
 
   figcaption {
+    padding: 1.25em 6em;
     left: 6em;
     bottom: 20em;
     font-size: 1.25rem;
@@ -211,9 +213,10 @@ footer p {
   }
 
   figcaption {
-    font-size: 1.5rem;
-    left: 9em;
-    bottom: 23em;
+    font-size: 1.75rem;
+    padding: 1em 7em;
+    left: 5.75em;
+    bottom: 21.5em;
   }
 
   .grapes {
@@ -252,8 +255,9 @@ footer p {
   }
 
   figcaption {
+    padding: 1.25em 8em;
     font-size: 2rem;
-    left: 10em;
+    left: 8em;
     bottom: 25em;
   }
 
