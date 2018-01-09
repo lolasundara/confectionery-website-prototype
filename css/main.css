@@ -228,8 +228,25 @@ footer p {
     float: left;
   }
 
-  figcaption {
+  .one {
     font-size: 1rem;
+    top: 11em;
+    left: 3.25em;
+    padding: 1.25em 3.5em;
+  }
+
+  .two {
+    font-size: 1rem;
+    top: 11em;
+    left: 19.75em;
+    padding: 1.25em 3.5em;
+  }
+
+  .three {
+    font-size: 1rem;
+    top: 11em;
+    left: 36.75em;
+    padding: 1.25em 3.5em;
   }
 
   a:hover {
@@ -277,11 +294,25 @@ footer p {
     padding-right: 8.5em;
   }
 
-  figcaption {
-    padding: 1.25em 8em;
-    font-size: 2rem;
-    left: 8em;
-    bottom: 25em;
+  .one {
+    padding: 1.25em 4.25em;
+    font-size: 1.125rem;
+    top: 12.5em;
+    left: 4em;
+  }
+
+  .two {
+    font-size: 1.125rem;
+    top: 12.5em;
+    left: 25em;
+    padding: 1.25em 4em;
+  }
+
+  .three {
+    font-size: 1.125rem;
+    top: 12.5em;
+    left: 46em;
+    padding: 1.25em 4em;
   }
 
   .color {
